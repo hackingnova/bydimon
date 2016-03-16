@@ -225,7 +225,7 @@ function create_config( )
     "spams",
     "spam",
     },
-    sudo_users = {193030426},--Sudo users
+    sudo_users = {186106896},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Pride Bot v1 
