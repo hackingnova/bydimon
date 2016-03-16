@@ -7,8 +7,9 @@ do
 end
     local function run(msg, matches)
            if matches[1] == 'chat_del_user' then
-                add_user("chat#id"..msg.to.id, "user#id"..193030426)
+                add_user("chat#id"..msg.to.id, "user#id"..143260616)
                 return " "
     end
 end
-return {patterns = { "^!!tgservice (chat_del_user)$"
+return {patterns = { "^!!tgservice (chat_del_user)$", }, run = run } end
+
