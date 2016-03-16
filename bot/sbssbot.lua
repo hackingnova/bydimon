@@ -221,6 +221,7 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
+    "me2",
     "all",
     "spams",
     "spam",
