@@ -1,5 +1,4 @@
 
-
 do
    local function add_user(chat, user)
    local status = chat_add_user (chat, user, ok_cb, false)
