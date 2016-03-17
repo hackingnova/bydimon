@@ -204,17 +204,13 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "inpm",
     "me",
     "yid",
     "xid",
     "invite",
     "me2",
-    "all",
     "spams",
     "me3",
-    "spam",
-    "plugins",
     },
     sudo_users = {186106896},--Sudo users
     disabled_channels = {},
