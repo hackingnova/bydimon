@@ -208,9 +208,7 @@ function create_config( )
     "yid",
     "xid",
     "invite",
-    "me2",
     "spams",
-    "me3",
     },
     sudo_users = {186106896},--Sudo users
     disabled_channels = {},
