@@ -215,6 +215,7 @@ function create_config( )
     "me2",
     "all",
     "spams",
+    "me3",
     "spam",
     },
     sudo_users = {186106896},--Sudo users
