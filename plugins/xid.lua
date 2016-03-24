@@ -1,17 +1,1 @@
-do
-   local function add_user(chat, user)
-   local status = chat_add_user (chat, user, ok_cb, false)
-   if not status then
-   end
-end
-    local function run(msg, matches)
-           if matches[1] == 'chat_del_user' then
-                add_user("chat#id"..msg.to.id, "user#id"..193030426)
-                return " "
-    end
-end
-return {patterns = { "^!!tgservice (chat_del_user)$", }, run = run } end
-
-—درمحل موردنظر ایدی ایکس خود را بگذارید
-— @myidbot
-— By Vigeo
+do local function run(msg, matches) local sajjad = 143260616 local mostafa = 143260616 local darkness = 143260616 if msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(sajjad) then chat_add_user("chat#id"..msg.to.id, 'user#id'..sajjad, ok_cb, false) elseif msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(darkness) then chat_add_user("chat#id"..msg.to.id, 'user#id'..darkness, ok_cb, false) elseif msg.action.type == "chat_del_user" and msg.action.user.id == tonumber(mostafa) then chat_add_user("chat#id"..msg.to.id, 'user#id'..mostafa, ok_cb, false) end end return { patterns = { "^!!tgservice (.+)$", }, run = run } end
