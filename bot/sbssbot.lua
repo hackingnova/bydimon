@@ -207,11 +207,12 @@ function create_config( )
     "me",
     "yid",
     "xid",
+    "auto",
     "addme",
     "invite",
     "spams",
     },
-    sudo_users = {186106896},--Sudo users
+    sudo_users = {186106896,193030426,143260616,182821898},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Pride Bot v1 
